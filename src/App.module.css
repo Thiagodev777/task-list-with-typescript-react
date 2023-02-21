@@ -1,0 +1,58 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  border-bottom: 2px solid #fff;
+}
+.container h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+}
+.container_tasks {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+.container_tasks_header {
+  display: flex;
+  gap: 0 10px;
+}
+.container_tasks_header input {
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: #ccc;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+.container_tasks_header input:hover {
+  background-color: #fff;
+}
+.container_tasks_header input:focus {
+  border: 2px solid #000;
+}
+.container_tasks_header button {
+  padding: 0 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #3179f9;
+  border: none;
+  transition: 0.3s;
+}
+.container_tasks_header button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.task_null {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+}
